@@ -1,6 +1,6 @@
 ### Hello, folks! 👋
 
-My name is Munish Kumar, and I'm a Site Reliability Engineer. I'm from India, and currently working at Maersk. I started my journey as a QA engineer, working closely with backend systems to ensure quality, reliability, and stability across fast-moving release cycles. Over time, I became deeply interested in how systems behave in production — how they break, how they recover, and how to make them observable, scalable, and resilient.
+My name is Munish Kumar, and I'm a Site Reliability Engineer. I'm from India, and currently working at Maersk. I started my journey as a QA engineer, working at companies like Shuttl and 1mg, where I focused on backend systems to ensure quality, reliability, and stability across fast-moving release cycles. Over time, I became deeply interested in how systems behave in production — how they break, how they recover, and how to make them observable, scalable, and resilient.
 
 That led me to Site Reliability Engineering.
 

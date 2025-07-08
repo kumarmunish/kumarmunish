@@ -1,16 +1,13 @@
 ### Hello, folks! 👋
 
-My name is Munish Kumar and I'm a SRE/DevOps Engineer. I'm from India, living in Gurgaon and currently working at Maersk.
+My name is Munish Kumar, and I'm a Site Reliability Engineer. I'm from India, and currently working at Maersk. I started my journey as a QA engineer, working closely with backend systems to ensure quality, reliability, and stability across fast-moving release cycles. Over time, I became deeply interested in how systems behave in production — how they break, how they recover, and how to make them observable, scalable, and resilient.
 
+That led me to Site Reliability Engineering.
+
+Today, I bring over 8+ years of experience across QA, DevOps, and SRE, helping teams deploy confidently, recover quickly, and build production-ready systems at scale.
 <br />
 
-<a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>
-<a href="https://www.linkedin.com/in/munishkumar631/"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> </a>
-
-<br />
-
-
-## Here are some of the Tools & Technologies I've wokred on
+### Here are some of the Tools & Technologies I've wokred on
 
 ![](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
@@ -38,3 +35,13 @@ My name is Munish Kumar and I'm a SRE/DevOps Engineer. I'm from India, living in
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 ![](https://img.shields.io/badge/Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
+
+I focus on building internal tooling, defining SLOs, designing CI/CD and pipelines, and optimizing infrastructure to reduce noise, minimize downtime, and create a better on-call experience. My work consistently helps developers ship faster with more confidence and fewer operational surprises.
+
+I thrive in blameless, high-trust environments, and enjoy mentoring junior engineers and those transitioning into SRE/DevOps — a path I’ve walked myself.
+
+<a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>
+<a href="https://www.linkedin.com/in/munishkumar631/"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> </a>
+
+<br />

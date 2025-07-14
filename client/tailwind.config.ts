@@ -39,6 +39,33 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "surface-elevated": "hsl(var(--surface-elevated))",
+        "gradient-primary": "hsl(var(--gradient-primary))",
+        "gradient-secondary": "hsl(var(--gradient-secondary))",
+      },
+      boxShadow: {
+        'soft': '0 1px 3px hsl(var(--shadow-soft)), 0 1px 2px hsl(var(--shadow-soft))',
+        'medium': '0 4px 6px hsl(var(--shadow-medium)), 0 2px 4px hsl(var(--shadow-soft))',
+        'strong': '0 8px 16px hsl(var(--shadow-strong)), 0 4px 8px hsl(var(--shadow-medium))',
+      },
+      animation: {
+        'fade-in': 'fade-in 0.3s ease-in-out',
+        'slide-down': 'slide-down 0.3s ease-in-out',
+        'slide-up': 'slide-up 0.3s ease-in-out',
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'slide-down': {
+          '0%': { opacity: '0', transform: 'translateY(-10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'slide-up': {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -47,7 +74,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [],
 }
 
 export default config

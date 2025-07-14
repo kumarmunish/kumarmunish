@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
 import { 
   Calendar, 
   MapPin, 
@@ -115,7 +116,7 @@ const About = () => {
 
         {/* Professional Summary */}
         <section className="mb-16">
-          <Card>
+          <Card className="card-enhanced">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Users className="h-6 w-6 text-primary" />
@@ -142,28 +143,34 @@ const About = () => {
 
         {/* Core Competencies */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Core Competencies</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {coreCompetencies.map((category, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2 text-lg">
-                    <div className="text-primary">{category.icon}</div>
-                    {category.category}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {category.skills.map((skill, skillIndex) => (
-                      <Badge key={skillIndex} variant="secondary">
-                        {skill}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Collapsible defaultOpen>
+            <CollapsibleTrigger className="text-left w-full p-0 mb-8">
+              <h2 className="text-3xl font-bold">Core Competencies</h2>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {coreCompetencies.map((category, index) => (
+                  <Card key={index} className="card-enhanced">
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2 text-lg">
+                        <div className="text-primary">{category.icon}</div>
+                        {category.category}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="flex flex-wrap gap-2">
+                        {category.skills.map((skill, skillIndex) => (
+                          <Badge key={skillIndex} variant="secondary">
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </CollapsibleContent>
+          </Collapsible>
         </section>
 
         {/* Impact Metrics */}
@@ -171,10 +178,10 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center mb-8">Reliability Impact Highlights</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {impacts.map((impact, index) => (
-              <Card key={index} className="text-center">
+              <Card key={index} className="text-center stats-card card-enhanced">
                 <CardContent className="p-6">
                   <div className="text-primary mb-2">{impact.icon}</div>
-                  <div className="text-3xl font-bold text-primary mb-2">{impact.value}</div>
+                  <div className="stats-number text-3xl font-bold text-primary mb-2">{impact.value}</div>
                   <div className="text-sm text-muted-foreground">{impact.metric}</div>
                 </CardContent>
               </Card>
@@ -184,49 +191,55 @@ const About = () => {
 
         {/* Professional Experience */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Professional Experience</h2>
-          <div className="space-y-6">
-            {experiences.map((exp, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div>
-                      <CardTitle className="text-xl">{exp.role}</CardTitle>
-                      <CardDescription className="text-lg font-semibold text-primary">
-                        {exp.company}
-                      </CardDescription>
-                    </div>
-                    <div className="flex flex-col md:items-end gap-1">
-                      <div className="flex items-center gap-2 text-muted-foreground">
-                        <Calendar className="h-4 w-4" />
-                        <span>{exp.period}</span>
+          <Collapsible defaultOpen>
+            <CollapsibleTrigger className="text-left w-full p-0 mb-8">
+              <h2 className="text-3xl font-bold">Professional Experience</h2>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              <div className="space-y-6">
+                {experiences.map((exp, index) => (
+                  <Card key={index} className="card-enhanced">
+                    <CardHeader>
+                      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                        <div>
+                          <CardTitle className="text-xl">{exp.role}</CardTitle>
+                          <CardDescription className="text-lg font-semibold text-primary">
+                            {exp.company}
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-col md:items-end gap-1">
+                          <div className="flex items-center gap-2 text-muted-foreground">
+                            <Calendar className="h-4 w-4" />
+                            <span>{exp.period}</span>
+                          </div>
+                          <div className="flex items-center gap-2 text-muted-foreground">
+                            <MapPin className="h-4 w-4" />
+                            <span>{exp.location}</span>
+                          </div>
+                        </div>
                       </div>
-                      <div className="flex items-center gap-2 text-muted-foreground">
-                        <MapPin className="h-4 w-4" />
-                        <span>{exp.location}</span>
-                      </div>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {exp.highlights.map((highlight, highlightIndex) => (
-                      <li key={highlightIndex} className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                        <span className="text-muted-foreground">{highlight}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+                    </CardHeader>
+                    <CardContent>
+                      <ul className="space-y-2">
+                        {exp.highlights.map((highlight, highlightIndex) => (
+                          <li key={highlightIndex} className="flex items-start gap-2">
+                            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                            <span className="text-muted-foreground">{highlight}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </CollapsibleContent>
+          </Collapsible>
         </section>
 
         {/* Education */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Education</h2>
-          <Card>
+          <Card className="card-enhanced">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Award className="h-6 w-6 text-primary" />
@@ -237,34 +250,40 @@ const About = () => {
           </Card>
         </section>
 
-        {/* Potential Certifications */}
+        {/* Planned Certifications */}
         <section>
-          <h2 className="text-3xl font-bold text-center mb-8">Planned Certifications</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card>
-              <CardContent className="p-6 text-center">
-                <Award className="h-8 w-8 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Certified Kubernetes Administrator</h3>
-                <p className="text-sm text-muted-foreground">CKA</p>
-              </CardContent>
-            </Card>
-            
-            <Card>
-              <CardContent className="p-6 text-center">
-                <Award className="h-8 w-8 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Azure DevOps Engineer Expert</h3>
-                <p className="text-sm text-muted-foreground">Microsoft Azure</p>
-              </CardContent>
-            </Card>
-            
-            <Card>
-              <CardContent className="p-6 text-center">
-                <Award className="h-8 w-8 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">AWS Certified SysOps Administrator</h3>
-                <p className="text-sm text-muted-foreground">Amazon Web Services</p>
-              </CardContent>
-            </Card>
-          </div>
+          <Collapsible defaultOpen>
+            <CollapsibleTrigger className="text-left w-full p-0 mb-8">
+              <h2 className="text-3xl font-bold">Planned Certifications</h2>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="card-enhanced">
+                  <CardContent className="p-6 text-center">
+                    <Award className="h-8 w-8 text-primary mx-auto mb-4" />
+                    <h3 className="font-semibold mb-2">Certified Kubernetes Administrator</h3>
+                    <p className="text-sm text-muted-foreground">CKA</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="card-enhanced">
+                  <CardContent className="p-6 text-center">
+                    <Award className="h-8 w-8 text-primary mx-auto mb-4" />
+                    <h3 className="font-semibold mb-2">Azure DevOps Engineer Expert</h3>
+                    <p className="text-sm text-muted-foreground">Microsoft Azure</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="card-enhanced">
+                  <CardContent className="p-6 text-center">
+                    <Award className="h-8 w-8 text-primary mx-auto mb-4" />
+                    <h3 className="font-semibold mb-2">AWS Certified SysOps Administrator</h3>
+                    <p className="text-sm text-muted-foreground">Amazon Web Services</p>
+                  </CardContent>
+                </Card>
+              </div>
+            </CollapsibleContent>
+          </Collapsible>
         </section>
       </div>
     </div>

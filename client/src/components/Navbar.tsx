@@ -2,53 +2,46 @@ import { useState } from 'react'
 import { Link, useLocation } from 'wouter'
 import { Button } from '@/components/ui/button'
 import { Menu, X } from 'lucide-react'
-import { ThemeToggle, SimpleThemeToggle } from '@/components/ThemeToggle'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [location] = useLocation()
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
+    { path: '/about', label: 'Resume' },
     { path: '/projects', label: 'Projects' },
     { path: '/contact', label: 'Contact' },
   ]
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="fixed top-0 z-50 w-full bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* Left side - Avatar/dot, name, and role */}
           <Link href="/">
-            <a className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
-              Munish Kumar
+            <a className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+              {/* Colored dot/avatar */}
+              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+              <div>
+                <div className="text-sm font-semibold text-gray-900">Munish Kumar</div>
+                <div className="text-xs text-gray-600">Site Reliability Engineer</div>
+              </div>
             </a>
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* Right side - Navigation links */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
-                <a
-                  className={`text-sm font-medium transition-colors hover:text-primary ${
-                    location === item.path
-                      ? 'text-primary border-b-2 border-primary'
-                      : 'text-muted-foreground'
-                  }`}
-                >
+                <a className="text-sm text-gray-700 hover:text-gray-900 transition-colors">
                   {item.label}
                 </a>
               </Link>
             ))}
-            
-            {/* Theme Toggle */}
-            <ThemeToggle />
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-2">
-            <SimpleThemeToggle />
+          <div className="md:hidden">
             <Button
               variant="ghost"
               size="icon"
@@ -66,11 +59,7 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <Link key={item.path} href={item.path}>
                   <a
-                    className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                      location === item.path
-                        ? 'text-primary bg-primary/10'
-                        : 'text-muted-foreground hover:text-primary hover:bg-accent'
-                    }`}
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.label}

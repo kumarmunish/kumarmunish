@@ -17,11 +17,11 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@shared/*": ["../shared/*"],
-      "@assets/*": ["./assets/*"]
+      "@/*": ["./client/src/*"],
+      "@shared/*": ["./shared/*"],
+      "@assets/*": ["./client/assets/*"]
     }
   },
-  "include": ["src"],
+  "include": ["client/src", "shared", "server"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

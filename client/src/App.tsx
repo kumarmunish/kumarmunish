@@ -9,7 +9,7 @@ import Contact from '@/pages/Contact'
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="portfolio-theme">
+    <ThemeProvider defaultTheme="light" storageKey="theme">
       <div className="min-h-screen bg-background">
         <Navbar />
         <main>

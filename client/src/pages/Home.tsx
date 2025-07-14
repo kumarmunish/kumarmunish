@@ -8,31 +8,31 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hero-gradient py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="hero-gradient py-20 lg:py-32 relative">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in">
               <span className="block">Munish Kumar</span>
               <span className="text-primary text-3xl sm:text-4xl lg:text-5xl">
                 Site Reliability Engineer
               </span>
             </h1>
             
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-up">
               DevOps Specialist & Cloud Infrastructure Automation Expert with 8+ years of experience 
               building reliable, scalable, and cost-efficient systems
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-up">
               <Link href="/about">
-                <Button size="lg" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full sm:w-auto button-enhanced">
                   View About Me
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
               
               <Link href="/contact">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto button-enhanced">
                   <Mail className="mr-2 h-5 w-5" />
                   Contact Me
                 </Button>
@@ -40,16 +40,16 @@ const Home = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-muted-foreground">
-              <div className="flex items-center gap-2">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-muted-foreground animate-fade-in">
+              <div className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Phone className="h-4 w-4" />
                 <span>+91 9999954851</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Mail className="h-4 w-4" />
                 <span>munishkumar631@gmail.com</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <MapPin className="h-4 w-4" />
                 <span>Bengaluru, India</span>
               </div>
@@ -59,8 +59,8 @@ const Home = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 bg-muted/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 skills-gradient relative">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">
               Core Technologies & Skills
@@ -78,30 +78,30 @@ const Home = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <Card className="text-center">
+            <Card className="text-center stats-card card-enhanced">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-primary mb-2">8+</div>
+                <div className="stats-number text-3xl font-bold text-primary mb-2">8+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </CardContent>
             </Card>
             
-            <Card className="text-center">
+            <Card className="text-center stats-card card-enhanced">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-primary mb-2">40%</div>
+                <div className="stats-number text-3xl font-bold text-primary mb-2">40%</div>
                 <div className="text-sm text-muted-foreground">Cost Reduction</div>
               </CardContent>
             </Card>
             
-            <Card className="text-center">
+            <Card className="text-center stats-card card-enhanced">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-primary mb-2">30%</div>
+                <div className="stats-number text-3xl font-bold text-primary mb-2">30%</div>
                 <div className="text-sm text-muted-foreground">MTTR Reduction</div>
               </CardContent>
             </Card>
             
-            <Card className="text-center">
+            <Card className="text-center stats-card card-enhanced">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-primary mb-2">30+</div>
+                <div className="stats-number text-3xl font-bold text-primary mb-2">30+</div>
                 <div className="text-sm text-muted-foreground">Microservices</div>
               </CardContent>
             </Card>
@@ -119,7 +119,7 @@ const Home = () => {
             Let's discuss how I can help improve your infrastructure reliability and reduce operational costs
           </p>
           <Link href="/contact">
-            <Button size="lg" variant="secondary">
+            <Button size="lg" variant="secondary" className="button-enhanced">
               Get In Touch
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>

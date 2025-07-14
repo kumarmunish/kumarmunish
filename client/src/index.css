@@ -5,47 +5,63 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 224 71.4% 4.1%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 224 71.4% 4.1%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 220.9 39.3% 11%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 71.4% 4.1%;
     --radius: 0.5rem;
+    
+    /* Enhanced color palette */
+    --gradient-primary: 220.9 39.3% 11%;
+    --gradient-secondary: 262.1 83.3% 57.8%;
+    --surface-elevated: 0 0% 98%;
+    --shadow-soft: 220 43% 11% / 0.05;
+    --shadow-medium: 220 43% 11% / 0.1;
+    --shadow-strong: 220 43% 11% / 0.15;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222.2 84% 4.9%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 94.1%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263.4 70% 50.4%;
+    
+    /* Enhanced dark mode colors */
+    --gradient-primary: 263.4 70% 50.4%;
+    --gradient-secondary: 270 95% 75%;
+    --surface-elevated: 226 64% 6%;
+    --shadow-soft: 0 0% 0% / 0.2;
+    --shadow-medium: 0 0% 0% / 0.3;
+    --shadow-strong: 0 0% 0% / 0.4;
   }
 }
 
@@ -87,31 +103,162 @@ html {
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hero section gradient */
+/* Enhanced Hero section gradient with patterns */
 .hero-gradient {
-  background: linear-gradient(135deg, hsl(var(--primary) / 0.1) 0%, hsl(var(--secondary)) 100%);
+  background: linear-gradient(135deg, hsl(var(--surface-elevated)) 0%, hsl(var(--secondary) / 0.8) 50%, hsl(var(--primary) / 0.05) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 80%, hsl(var(--primary) / 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, hsl(var(--gradient-secondary) / 0.08) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .dark .hero-gradient {
-  background: linear-gradient(135deg, hsl(var(--primary) / 0.2) 0%, hsl(var(--secondary) / 0.8) 100%);
+  background: linear-gradient(135deg, hsl(var(--surface-elevated)) 0%, hsl(var(--secondary) / 0.8) 50%, hsl(var(--primary) / 0.1) 100%);
 }
 
-/* Skill icon animation */
+.dark .hero-gradient::before {
+  background: radial-gradient(circle at 20% 80%, hsl(var(--primary) / 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, hsl(var(--gradient-secondary) / 0.1) 0%, transparent 50%);
+}
+
+/* Enhanced skills section gradient */
+.skills-gradient {
+  background: linear-gradient(165deg, hsl(var(--muted) / 0.6) 0%, hsl(var(--background)) 40%, hsl(var(--primary) / 0.02) 100%);
+  position: relative;
+}
+
+.skills-gradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 49%, hsl(var(--border) / 0.3) 50%, transparent 51%);
+  background-size: 60px 60px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.dark .skills-gradient {
+  background: linear-gradient(165deg, hsl(var(--muted) / 0.4) 0%, hsl(var(--background)) 40%, hsl(var(--primary) / 0.05) 100%);
+}
+
+/* Enhanced skill icon animations */
 .skill-icon {
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0);
+  box-shadow: 0 2px 8px hsl(var(--shadow-soft));
 }
 
 .skill-icon:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px hsl(var(--primary) / 0.2);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 24px hsl(var(--shadow-medium)), 0 4px 12px hsl(var(--primary) / 0.1);
 }
 
-/* Theme toggle animation */
-.theme-toggle-icon {
+.dark .skill-icon {
+  box-shadow: 0 2px 8px hsl(var(--shadow-soft)), 0 1px 3px hsl(var(--shadow-medium));
+}
+
+.dark .skill-icon:hover {
+  box-shadow: 0 12px 24px hsl(var(--shadow-strong)), 0 4px 12px hsl(var(--primary) / 0.2);
+}
+
+/* Enhanced card styling */
+.card-enhanced {
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px hsl(var(--shadow-soft)), 0 1px 2px hsl(var(--shadow-soft));
+  border: 1px solid hsl(var(--border));
+}
+
+.card-enhanced:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px hsl(var(--shadow-medium)), 0 2px 8px hsl(var(--shadow-soft));
+}
+
+.dark .card-enhanced {
+  box-shadow: 0 2px 4px hsl(var(--shadow-medium)), 0 1px 2px hsl(var(--shadow-strong));
+  border-color: hsl(var(--border) / 0.8);
+}
+
+.dark .card-enhanced:hover {
+  box-shadow: 0 8px 16px hsl(var(--shadow-strong)), 0 4px 8px hsl(var(--shadow-medium));
+}
+
+/* Collapsible section animations */
+.collapsible-content {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.collapsible-trigger {
+  transition: all 0.2s ease;
+}
+
+.collapsible-trigger:hover {
+  background-color: hsl(var(--accent));
+}
+
+.collapsible-trigger[data-state="open"] .chevron-icon {
+  transform: rotate(180deg);
+}
+
+.chevron-icon {
+  transition: transform 0.2s ease;
+}
+
+/* Enhanced button hover effects */
+.button-enhanced {
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, hsl(var(--primary-foreground) / 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.button-enhanced:hover::before {
+  left: 100%;
+}
+
+.button-enhanced:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px hsl(var(--primary) / 0.3);
+}
+
+/* Stats card enhanced animations */
+.stats-card {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Enhanced card shadows for dark mode */
-.dark .card-enhanced {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+.stats-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 24px hsl(var(--shadow-medium));
+}
+
+.stats-card:hover .stats-number {
+  transform: scale(1.1);
+  color: hsl(var(--primary));
+}
+
+.stats-number {
+  transition: all 0.3s ease;
 }

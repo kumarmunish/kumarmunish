@@ -1,10 +1,7 @@
 ### Hello, folks! 👋
 
-I’m a Site Reliability Engineer with a background in QA and a deep interest in how systems behave - especially in production. I care about building systems that are observable, scalable, and resilient. I began my journey as a QA engineer, working closely with backend teams to ensure stability and quality across rapid release cycles. Over time, I became fascinated with how systems break, recover, and scale - which naturally led me into SRE.
+I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, and SRE. I specialize in building scalable, observable, and resilient systems. Starting in QA, I grew passionate about how systems behave in production — and how to make them better.
 
-Today, With over 8 years of experience spanning QA, DevOps, and SRE, I specialize in helping teams ship reliably, recover quickly, and operate production systems with confidence. My work focuses on building internal tools, defining SLOs, implementing CI/CD pipelines, enhancing observability, and optimizing infrastructure to reduce noise and boost velocity. I'm driven by the goal of improving production visibility and creating a calmer on-call experience. I thrive in high-trust, blameless environments and enjoy mentoring junior engineers - especially those transitioning into SRE or DevOps, a journey I've taken myself.
-
-<br />
 
 ### Here are some of the Tools & Technologies I've wokred on
 
@@ -35,8 +32,9 @@ Today, With over 8 years of experience spanning QA, DevOps, and SRE, I specializ
 ![](https://img.shields.io/badge/Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-
 <br />
+
+I focus on CI/CD, internal tooling, SLOs, and improving production visibility. I enjoy mentoring engineers transitioning into SRE, and I'm driven by the goal of making on-call calmer and systems more reliable
 
 
 <a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>

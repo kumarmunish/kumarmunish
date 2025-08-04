@@ -1,45 +1,64 @@
-### Hello, folks! 👋
+### 👋 Hi, I'm Munish!
 
-I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, and SRE. I specialize in building scalable, observable, and resilient systems. Starting in QA, I grew passionate about how systems behave in production — and how to make them better.
+I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, and SRE. I build scalable, resilient, and observable infrastructure. My journey began in QA, but I became obsessed with how systems behave in production — and how to make them better.
 
+### 🛠️ Tools & Technologies I Work With
 
-### Here are some of the Tools & Technologies I've wokred on
+#### ☁️ Cloud & Containers
 
-![](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
-![](https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
-![](https://img.shields.io/badge/Grafana-F2F4F9?style=for-the-badge&logo=grafana&logoColor=orange&labelColor=F2F4F9)
-![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![](https://img.shields.io/badge/Consul-025E8C?style=for-the-badge&logo=consul)
-![](https://img.shields.io/badge/Vault-025E8C?style=for-the-badge&logo=vault)
-![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white)
-![](https://img.shields.io/badge/Drone_CI-212121?style=for-the-badge&logo=drone&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
-![](https://img.shields.io/badge/Amazon%20S3-4053D6?style=for-the-badge&logo=amazons3&logoColor=white)
-![](https://img.shields.io/badge/Elastic_Search-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![](https://img.shields.io/badge/PostgreSQL-informational?style=for-the-badge&logo=postgresql&logoColor=white)
-![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![](https://img.shields.io/badge/Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <a href="https://www.google.com/search?q=AWS+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" title="AWS" width="32"/></a>
+  <a href="https://www.google.com/search?q=Azure+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftazure.svg" alt="Azure" title="Azure" width="32"/></a>
+  <a href="https://www.google.com/search?q=Docker+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg" alt="Docker" title="Docker" width="32"/></a>
+  <a href="https://www.google.com/search?q=Kubernetes+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="32"/></a>
+  <a href="https://www.google.com/search?q=Linux+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linux.svg" alt="Linux" title="Linux" width="32"/></a>
+</p>
 
-<br />
+#### ⚙️ Infrastructure as Code & Config Management
 
-I focus on CI/CD, internal tooling, SLOs, and improving production visibility. I enjoy mentoring engineers transitioning into SRE, and I'm driven by the goal of making on-call calmer and systems more reliable
+<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <a href="https://www.google.com/search?q=Terraform+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/terraform.svg" alt="Terraform" title="Terraform" width="32"/></a>
+  <a href="https://www.google.com/search?q=Ansible+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/ansible.svg" alt="Ansible" title="Ansible" width="32"/></a>
+  <a href="https://www.google.com/search?q=Vault+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/vault.svg" alt="Vault" title="Vault" width="32"/></a>
+  <a href="https://www.google.com/search?q=Consul+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/consul.svg" alt="Consul" title="Consul" width="32"/></a>
+</p>
 
+#### 📊 Monitoring & Observability
 
-<a href="https://munishk.dev/"><img align="left" alt="Munish's Protfolio"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/opsgenie.svg" /> </a>
-<a href="https://www.linkedin.com/in/munishkumar631/"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> </a>
-<a href="mailto:munishkumar631@gmail.com"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" /> </a>
-<a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>
+<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <a href="https://www.google.com/search?q=Grafana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/grafana.svg" alt="Grafana" title="Grafana" width="32"/></a>
+  <a href="https://www.google.com/search?q=Datadog+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/datadog.svg" alt="Datadog" title="Datadog" width="32"/></a>
+  <a href="https://www.google.com/search?q=Kibana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kibana.svg" alt="Kibana" title="Kibana" width="32"/></a>
+</p>
 
-<br />
+#### 📚 Languages & CI/CD
+
+<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <a href="https://www.google.com/search?q=Go+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/go.svg" alt="Go" title="Go" width="32"/></a>
+  <a href="https://www.google.com/search?q=Python+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/python.svg" alt="Python" title="Python" width="32"/></a>
+  <a href="https://www.google.com/search?q=GitHub Actions+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="32"/></a>
+  <a href="https://www.google.com/search?q=Jenkins+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/jenkins.svg" alt="Jenkins" title="Jenkins" width="32"/></a>
+</p>
+
+#### 🗄️ Databases & Caching
+
+<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <a href="https://www.google.com/search?q=PostgreSQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="32"/></a>
+  <a href="https://www.google.com/search?q=MySQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mysql.svg" alt="MySQL" title="MySQL" width="32"/></a>
+  <a href="https://www.google.com/search?q=Redis+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/redis.svg" alt="Redis" title="Redis" width="32"/></a>
+</p>
+
+### 🚀 What I'm Passionate About
+
+* Building internal tools and CI/CD pipelines
+* Reducing on-call stress with better observability
+* Mentoring junior engineers
+* Making systems boring (aka stable and predictable)
+* Continuously upskilling and exploring emerging technologies
+
+### 📫 Reach Me
+
+* 🌐 [munish.dev](https://munish.dev)
+* 💼 [LinkedIn](https://linkedin.com/in/munishkumar631)
+* 🐦 [Twitter](https://x.com/munishkr_)
+* 📧 [munishkumar631@gmail.com](mailto:munishkumar631@gmail.com)

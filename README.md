@@ -37,8 +37,9 @@ I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, a
 I focus on CI/CD, internal tooling, SLOs, and improving production visibility. I enjoy mentoring engineers transitioning into SRE, and I'm driven by the goal of making on-call calmer and systems more reliable
 
 
-<a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>
-<a href="https://www.linkedin.com/in/munishkumar631/"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> </a>
 <a href="https://munishk.dev/"><img align="left" alt="Munish's Protfolio"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/opsgenie.svg" /> </a>
+<a href="https://www.linkedin.com/in/munishkumar631/"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> </a>
+<a href="mailto:munishkumar631@gmail.com"><img align="left" alt="Munish's LinkdeIN"  height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" /> </a>
+<a href="https://x.com/munishkr_">                   <img align="left" alt="Munish's's Twitter"   height="22px" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />  </a>
 
 <br />

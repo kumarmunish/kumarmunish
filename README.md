@@ -28,6 +28,7 @@ I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, a
 <p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
   <a href="https://www.google.com/search?q=Grafana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/grafana.svg" alt="Grafana" title="Grafana" width="32"/></a>
   <a href="https://www.google.com/search?q=Datadog+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/datadog.svg" alt="Datadog" title="Datadog" width="32"/></a>
+  <a href="https://www.google.com/search?q=Elasticsearch+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/elasticsearch.svg" alt="Datadog" title="Elasticsearch" width="32"/></a>
   <a href="https://www.google.com/search?q=Kibana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kibana.svg" alt="Kibana" title="Kibana" width="32"/></a>
 </p>
 
@@ -45,6 +46,7 @@ I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, a
 <p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
   <a href="https://www.google.com/search?q=PostgreSQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="32"/></a>
   <a href="https://www.google.com/search?q=MySQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mysql.svg" alt="MySQL" title="MySQL" width="32"/></a>
+  <a href="https://www.google.com/search?q=MSSQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftsqlserver.svg" alt="Redis" title="Microsoft SQL Server" width="32"/></a>
   <a href="https://www.google.com/search?q=Redis+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/redis.svg" alt="Redis" title="Redis" width="32"/></a>
 </p>
 

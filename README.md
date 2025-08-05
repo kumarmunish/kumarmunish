@@ -1,6 +1,6 @@
 ### 👋 Hi, I'm Munish!
 
-I'm a Site Reliability Engineer with 8+ years of experience across QA, DevOps, and SRE. I build scalable, resilient, and observable infrastructure. My journey began in QA, but I became obsessed with how systems behave in production — and how to make them better.
+I'm a Site Reliability Engineer with 8+ years of experience across SRE, DevOps, and QA. I build scalable, resilient, and observable infrastructure. My journey began in QA, but I became obsessed with how systems behave in production — and how to make them better.
 
 ### 🛠️ Tools & Technologies I Work With
 

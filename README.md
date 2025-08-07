@@ -60,7 +60,7 @@ I'm a Site Reliability Engineer with 8+ years of experience across SRE, DevOps, 
 
 ### 📫 Reach Me
 
-* 🌐 [munish.dev](https://munish.dev)
+* 🌐 [munish.dev](https://munishk.dev)
 * 💼 [LinkedIn](https://linkedin.com/in/munishkumar631)
 * 🐦 [Twitter](https://x.com/munishkr_)
 * 📧 [munishkumar631@gmail.com](mailto:munishkumar631@gmail.com)

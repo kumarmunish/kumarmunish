@@ -1,6 +1,6 @@
 ### 👋 Hi, I'm Munish!
 
-I'm a Site Reliability Engineer with 8+ years of experience across SRE, DevOps, and QA. I build scalable, resilient, and observable infrastructure. My journey began in QA, but I became obsessed with how systems behave in production — and how to make them better.
+I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by curiosity about how systems behave in production and a passion for turning chaos into stability. Whether it’s reducing alert noise, building tools for smoother operations, or uncovering the “why” behind unexpected incidents, my goal is simple: empower teams to navigate production with confidence, not anxiety..
 
 ### 🛠️ Tools & Technologies I Work With
 

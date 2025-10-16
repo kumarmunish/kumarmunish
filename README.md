@@ -54,7 +54,6 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 
 * Building internal tools and CI/CD pipelines
 * Reducing on-call stress with better observability
-* Mentoring junior engineers
 * Making systems boring (aka stable and predictable)
 * Continuously upskilling and exploring emerging technologies
 
@@ -62,5 +61,4 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 
 * 🌐 [munishk.dev](https://munishk.dev)
 * 💼 [LinkedIn](https://linkedin.com/in/munishkumar631)
-* 🐦 [Twitter](https://x.com/munishkr_)
 * 📧 [munishkumar631@gmail.com](mailto:munishkumar631@gmail.com)

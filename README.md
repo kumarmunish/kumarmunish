@@ -4,51 +4,46 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 
 ### 🛠️ Tools & Technologies I Work With
 
-#### ☁️ Cloud & Containers
+#### Cloud & Containers
 
-<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=AWS+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" title="AWS" width="32" style="filter: invert(62%) sepia(88%) saturate(748%) hue-rotate(358deg);" /></a>
-  <a href="https://www.google.com/search?q=Azure+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftazure.svg" alt="Azure" title="Azure" width="32"/></a>
-  <a href="https://www.google.com/search?q=Docker+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg" alt="Docker" title="Docker" width="32"/></a>
-  <a href="https://www.google.com/search?q=Kubernetes+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="32"/></a>
-  <a href="https://www.google.com/search?q=Linux+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linux.svg" alt="Linux" title="Linux" width="32"/></a>
-</p>
+![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-OS-FCC624?logo=linux&logoColor=black)
 
-#### ⚙️ Infrastructure as Code & Config Management
 
-<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=Terraform+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/terraform.svg" alt="Terraform" title="Terraform" width="32"/></a>
-  <a href="https://www.google.com/search?q=Ansible+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/ansible.svg" alt="Ansible" title="Ansible" width="32"/></a>
-  <a href="https://www.google.com/search?q=Vault+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/vault.svg" alt="Vault" title="Vault" width="32"/></a>
-  <a href="https://www.google.com/search?q=Consul+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/consul.svg" alt="Consul" title="Consul" width="32"/></a>
-</p>
+#### Infrastructure as Code & Config Management
 
-#### 📊 Monitoring & Observability
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-Configuration-EE0000?logo=ansible&logoColor=white)
+![Vault](https://img.shields.io/badge/Vault-Secrets-000000?logo=vault&logoColor=white)
+![Consul](https://img.shields.io/badge/Consul-Service_Discovery-F24C53?logo=consul&logoColor=white)
 
-<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=Grafana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/grafana.svg" alt="Grafana" title="Grafana" width="32"/></a>
-  <a href="https://www.google.com/search?q=Datadog+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/datadog.svg" alt="Datadog" title="Datadog" width="32"/></a>
-  <a href="https://www.google.com/search?q=Elasticsearch+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/elasticsearch.svg" alt="Datadog" title="Elasticsearch" width="32"/></a>
-  <a href="https://www.google.com/search?q=Kibana+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kibana.svg" alt="Kibana" title="Kibana" width="32"/></a>
-</p>
 
-#### 📚 Languages & CI/CD
+#### Monitoring & Observability
 
-<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=Go+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/go.svg" alt="Go" title="Go" width="32"/></a>
-  <a href="https://www.google.com/search?q=Python+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/python.svg" alt="Python" title="Python" width="32"/></a>
-  <a href="https://www.google.com/search?q=GitHub Actions+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="32"/></a>
-  <a href="https://www.google.com/search?q=Jenkins+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/jenkins.svg" alt="Jenkins" title="Jenkins" width="32"/></a>
-</p>
+![Grafana](https://img.shields.io/badge/Grafana-Observability-F46800?logo=grafana&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-Monitoring-632CA6?logo=datadog&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-Search-005571?logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-Visualization-005571?logo=kibana&logoColor=white)
 
-#### 🗄️ Databases & Caching
 
-<p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=PostgreSQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="32"/></a>
-  <a href="https://www.google.com/search?q=MySQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mysql.svg" alt="MySQL" title="MySQL" width="32"/></a>
-  <a href="https://www.google.com/search?q=MSSQL+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftsqlserver.svg" alt="Redis" title="Microsoft SQL Server" width="32"/></a>
-  <a href="https://www.google.com/search?q=Redis+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/redis.svg" alt="Redis" title="Redis" width="32"/></a>
-</p>
+#### Languages & CI/CD
+
+![Go](https://img.shields.io/badge/Go-Programming-00ADD8?logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Programming-3776AB?logo=python&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?logo=jenkins&logoColor=white)
+
+
+#### Databases & Caching
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/MSSQL-Database-CC2927?logo=microsoftsqlserver&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?logo=redis&logoColor=white)
+
 
 ### 🚀 What I'm Passionate About
 

@@ -7,7 +7,7 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 #### ☁️ Cloud & Containers
 
 <p style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <a href="https://www.google.com/search?q=AWS+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" title="AWS" width="32" class="icon dark-aware" /></a>
+  <a href="https://www.google.com/search?q=AWS+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/amazonaws.svg" alt="AWS" title="AWS" width="32" style="filter: invert(62%) sepia(88%) saturate(748%) hue-rotate(358deg);" /></a>
   <a href="https://www.google.com/search?q=Azure+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftazure.svg" alt="Azure" title="Azure" width="32"/></a>
   <a href="https://www.google.com/search?q=Docker+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg" alt="Docker" title="Docker" width="32"/></a>
   <a href="https://www.google.com/search?q=Kubernetes+official" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="32"/></a>

@@ -30,8 +30,8 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 
 ### Languages & CI/CD
 
-![Go](https://img.shields.io/badge/Go-Programming-00ADD8?logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Programming-3776AB?logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-Programming-00ADD8?logo=go&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?logo=jenkins&logoColor=white)
 

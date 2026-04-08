@@ -53,6 +53,6 @@ I’m a Site Reliability Engineer, currently working at Maersk. I’m driven by 
 
 ## 📫 Reach Me
 
-* 🌐 [munishk.dev](https://munishk.dev)
+* 🌐 [Portfolio](https://munishk.dev)
 * 💼 [LinkedIn](https://linkedin.com/in/munishkumar631)
-* 📧 [munishkumar631@gmail.com](mailto:munishkumar631@gmail.com)
+* 📧 [Send Email](mailto:munishkumar631@gmail.com)

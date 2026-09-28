@@ -73,17 +73,6 @@ I'm a Site Reliability Engineer, currently working at Maersk. I'm driven by curi
 
 </details>
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img height="165" src="./assets/github-stats.svg" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=kumarmunish&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="./assets/activity-graph.svg" alt="Activity Graph" />
-</p>
-
 ## 🚀 What I'm Passionate About
 
 * Building internal tools and CI/CD pipelines
